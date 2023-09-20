@@ -27,3 +27,22 @@ int main()
     printf("%d",red);
     return 0;
 }
+
+
+
+
+//自我练习
+//程序功能：计算整数和 乘积 商
+
+#include<stdio.h>
+
+int main()
+{
+    int a,b,c,num1,num2;
+    printf("请输入两个数字使用空格隔离开来");
+    scanf("%d%d",&num1,&num2);
+    a = num1 + num2;
+    b = num1 * num2;
+    c = num1 / num2;
+    printf("和%d乘%d商%d",a,b,c);
+}
