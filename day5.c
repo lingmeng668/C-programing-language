@@ -111,6 +111,9 @@ int main()
       case 4:
          printf("星期4");
         break;
+      default:
+        printf("输入错误检查格式");
+        break;
     }
 }
 
