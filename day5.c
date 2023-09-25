@@ -93,3 +93,23 @@ int main ()
     }
 }
 //上述两个程序功能一致 但是第二种效率更高 只执行更少循环
+int main()
+{
+  int day;
+  scanf("%d",day);
+  switch(day)
+    {
+      case 1:
+        printf("星期一");
+      case 2:
+        printf("星期二");
+      case 3:
+         printf("星期3");
+      case 4:
+         printf("星期4");
+    }
+}
+
+
+//switch使用方法
+//
