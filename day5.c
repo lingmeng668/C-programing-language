@@ -101,15 +101,19 @@ int main()
     {
       case 1:
         printf("星期一");
+        break;
       case 2:
         printf("星期二");
+        break;
       case 3:
          printf("星期3");
+        break;
       case 4:
          printf("星期4");
+        break;
     }
 }
 
 
 //switch使用方法
-//
+//case 后必须为常量
