@@ -43,3 +43,16 @@ int main()
       printf("青年")
   return 0;
 }
+
+//0为假 非0一切全为真。
+//else 只与最近的if匹配 就近原则
+/*
+int a = 0;
+int b =2;
+if(a == 1)
+  if( b == 2)
+  printf("aa");
+else
+    printf("bb");
+*/
+//不打印任何信息 第一个if不满足
