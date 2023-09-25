@@ -68,5 +68,28 @@ int main()
 
 
 //循环语句
+//打印奇数
+#include <stdio.h>
 
+int main()
+{
+  int a;
+  for(a=1;a<100;a++)
+    {
+      if(a % 2 == 1)
+      {
+        printf("%d\n",a);
+      }
+    }
+}
 
+int main ()
+{
+  int a;
+  while(a <= 100)
+    {
+      printf("%d\n",a)
+      a+=2
+    }
+}
+//上述两个程序功能一致 但是第二种效率更高 只执行更少循环
