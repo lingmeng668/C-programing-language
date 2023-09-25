@@ -56,3 +56,17 @@ else
     printf("bb");
 */
 //不打印任何信息 第一个if不满足
+
+int main()
+{
+  int num = 10
+  if (num % 2 ==1){
+    printf("zhishu")
+  }
+  return 0;
+}
+
+
+//循环语句
+
+
